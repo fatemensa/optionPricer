@@ -5,7 +5,7 @@ from Models import black_scholes_option, european_option_crr
 
 # Initialisation de l'application Dash
 app = dash.Dash(__name__)
-
+server = app.server
 # Mise en page de l'interface utilisateur
 app.layout = html.Div(
     children=[
